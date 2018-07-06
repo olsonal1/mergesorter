@@ -79,7 +79,7 @@ def main():
 	for i in range(min):
 		A.append(random.randint(min, max))
 	
-	#We pick f as the identity function (default), but you can choose something different.
+	#We pick f as the comparison x <= y, but you can choose something different.
 	def f(x, y): 
 		return x <= y
 	

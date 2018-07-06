@@ -29,8 +29,7 @@
 
 # WARNING: If f doesn't return a boolean when comparing two elements, you'll almost certainly run into errors!
 
-# But it'll still do better than O(n lg(n)), if f(n), g(n) < lg(n).
-# WARNING: If f can't turn an element of the list into an integer, you'll almost certainly run into errors!
+# Time complexity is O(f(n) * n lg(n)), or just O(n lg(n)) if f(n) is O(1).
 
 #Once radixsort() is done, it'll return the elements sorted by the numbering given by f.
 

@@ -1,4 +1,4 @@
-A merge sorter for comparable elements
+# A merge sorter for comparable elements
  - by Alexander Olson.
 
 Mergesort is a simple and very common algorithm for sorting comparable elements.
